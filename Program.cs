@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+using Hilo.game;
 
-namespace MyApp // Note actual namespace depends on the project name.
+namespace Hilo.game // Note actual namespace depends on the project name.
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
+            Director director = new Director();
+            director.StartGame();
         }
     }
 }
